@@ -349,6 +349,20 @@ div[data-testid="stChatMessage"] pre code {
     background: #f1f3f7 !important;
     color: #000000 !important;
 }
+/* Online AI Assistant */
+[data-testid="stSidebar"] .stCaption {
+    color: #ffffff !important;
+}
+
+/* New Chat & Clear Current Chat buttons */
+[data-testid="stSidebar"] button {
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+
+[data-testid="stSidebar"] button * {
+    color: #ffffff !important;
+}
 </style>
 """,
     unsafe_allow_html=True
