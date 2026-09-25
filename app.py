@@ -327,6 +327,27 @@ div[data-testid="stChatMessage"] em {
 .stApp .card * {
     color: #000000 !important;
 }
+/* AI response text - black */
+div[data-testid="stChatMessage"] h1,
+div[data-testid="stChatMessage"] h2,
+div[data-testid="stChatMessage"] h3,
+div[data-testid="stChatMessage"] h4,
+div[data-testid="stChatMessage"] p,
+div[data-testid="stChatMessage"] li,
+div[data-testid="stChatMessage"] strong {
+    color: #000000 !important;
+}
+
+/* Code box */
+div[data-testid="stChatMessage"] pre {
+    background: #f1f3f7 !important;
+    color: #000000 !important;
+}
+
+div[data-testid="stChatMessage"] pre code {
+    background: #f1f3f7 !important;
+    color: #000000 !important;
+}
 </style>
 """,
     unsafe_allow_html=True
