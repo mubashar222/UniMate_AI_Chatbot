@@ -202,7 +202,9 @@ html, body, [class*="css"] {
 [data-testid="stSidebar"] {
     background: #e8eef7 !important;
 }
-
+[data-testid="stAppViewContainer"] {
+    background: #f5f7ff !important;
+}
 /* Sidebar normal words = BLACK */
 [data-testid="stSidebar"] p,
 [data-testid="stSidebar"] label,
