@@ -209,8 +209,25 @@ html, body, [class*="css"] {
 [data-testid="stSidebar"] * {
     color: #172033 !important;
 }
-[data-testid="stSidebar"] * {
-    color: #f4f7ff !important;
+/* Sidebar normal text */
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] h4,
+[data-testid="stSidebar"] span {
+    color: #000000 !important;
+}
+
+/* Sidebar buttons / boxes - white text */
+[data-testid="stSidebar"] button {
+    color: #ffffff !important;
+}
+
+/* Button ke andar text */
+[data-testid="stSidebar"] button * {
+    color: #ffffff !important;
 }
 
 .hero {
