@@ -203,14 +203,12 @@ html, body, [class*="css"] {
 }
 
 [data-testid="stSidebar"] {
-    background:
-    linear-gradient(
-        180deg,
-        #111936 0%,
-        #1c2860 100%
-    );
+    background: linear-gradient(180deg, #eaf4ff 0%, #ffffff 100%);
 }
 
+[data-testid="stSidebar"] * {
+    color: #172033 !important;
+}
 [data-testid="stSidebar"] * {
     color: #f4f7ff !important;
 }
