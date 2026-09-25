@@ -192,14 +192,8 @@ html, body, [class*="css"] {
     font-family: Inter, sans-serif;
 }
 
-[data-testid="stAppViewContainer"] {
-    background:
-    linear-gradient(
-        135deg,
-        #f5f7ff 0%,
-        #eef8ff 55%,
-        #f4fffb 100%
-    );
+[data-testid="stSidebar"] [data-testid="stCaptionContainer"] * {
+    color: #ffffff !important;
 }
 
 [data-testid="stSidebar"] {
