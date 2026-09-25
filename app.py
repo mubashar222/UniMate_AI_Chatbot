@@ -318,7 +318,15 @@ div[data-testid="stChatMessage"] em {
     font-size: 13px;
     font-weight: 700;
 }
-
+/* Front page text - black */
+.stApp h1,
+.stApp h2,
+.stApp h3,
+.stApp p,
+.stApp .card,
+.stApp .card * {
+    color: #000000 !important;
+}
 </style>
 """,
     unsafe_allow_html=True
