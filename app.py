@@ -192,24 +192,40 @@ html, body, [class*="css"] {
     font-family: Inter, sans-serif;
 }
 
-[data-testid="stSidebar"] [data-testid="stCaptionContainer"] * {
-    color: #ffffff !important;
-}
+/* =========================
+   SIDEBAR
+   ========================= */
 
 [data-testid="stSidebar"] {
     background: linear-gradient(180deg, #111936 0%, #1c2860 100%);
 }
 
-[data-testid="stSidebar"] * { color: #f4f7ff !important; }
-/* Sidebar buttons / boxes - white text */
-[data-testid="stSidebar"] button {
-    color: #ffffff !important;
+/* Sidebar normal words = BLACK */
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] h4 {
+    color: #000000 !important;
 }
 
-/* Button ke andar text */
+/* New Chat & Clear Current Chat
+   BLACK BOX + WHITE WORDS */
+[data-testid="stSidebar"] button {
+    background: #000000 !important;
+    color: #ffffff !important;
+    border: 1px solid #000000 !important;
+}
+
 [data-testid="stSidebar"] button * {
     color: #ffffff !important;
 }
+
+
+/* =========================
+   HERO
+   ========================= */
 
 .hero {
     padding: 28px 32px;
@@ -222,6 +238,7 @@ html, body, [class*="css"] {
         #25256f,
         #087f8c
     );
+
     box-shadow:
     0 18px 45px rgba(28, 43, 100, .18);
 
