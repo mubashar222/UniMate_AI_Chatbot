@@ -202,23 +202,52 @@ html, body, [class*="css"] {
     );
 }
 
+st.markdown("""
+<style>
+
+...baqi CSS...
+
+/* ===== SIDEBAR ONLY ===== */
+
 [data-testid="stSidebar"] {
-    background: linear-gradient(180deg, #eaf4ff 0%, #ffffff 100%);
+    background: #eaf4ff !important;
 }
 
-[data-testid="stSidebar"] * {
-    color: #172033 !important;
-}
-/* Sidebar normal text */
+/* Sidebar normal text = BLACK */
 [data-testid="stSidebar"] p,
 [data-testid="stSidebar"] label,
 [data-testid="stSidebar"] h1,
 [data-testid="stSidebar"] h2,
 [data-testid="stSidebar"] h3,
-[data-testid="stSidebar"] h4,
-[data-testid="stSidebar"] span {
+[data-testid="stSidebar"] h4 {
     color: #000000 !important;
 }
+
+/* Sidebar buttons = BLACK BOX + WHITE TEXT */
+[data-testid="stSidebar"] button {
+    background: #000000 !important;
+    color: #ffffff !important;
+    border: 1px solid #000000 !important;
+}
+
+[data-testid="stSidebar"] button * {
+    color: #ffffff !important;
+}
+
+/* Language / Mode boxes = BLACK + WHITE */
+[data-testid="stSidebar"] [data-baseweb="select"] {
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+
+[data-testid="stSidebar"] [data-baseweb="select"] * {
+    color: #ffffff !important;
+}
+
+...baqi CSS...
+
+</style>
+""", unsafe_allow_html=True)
 
 /* Sidebar buttons / boxes - white text */
 [data-testid="stSidebar"] button {
