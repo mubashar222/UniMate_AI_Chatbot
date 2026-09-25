@@ -519,19 +519,13 @@ with c4:
 # CHAT AREA
 # =========================================================
 
-st.markdown(
-    f"""
-<div class="chat-title">
-    💬 AI Conversation
-</div>
+st.markdown("### 🎓 MUBASHAR REHMAN PROJECT")
 
-<div class="small-muted">
-    Language: {st.session_state.language}
-    &nbsp; • &nbsp;
-    Mode: {st.session_state.mode}
-</div>
-""",
-    unsafe_allow_html=True
+st.title("UniMate AI")
+
+st.write(
+    "Your intelligent university study companion — "
+    "powered by online AI."
 )
 
 st.write("")
