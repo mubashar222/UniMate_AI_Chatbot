@@ -296,6 +296,15 @@ div.stButton > button {
 
 div[data-testid="stChatMessage"] {
     border-radius: 16px;
+    color: #172033 !important;
+}
+
+div[data-testid="stChatMessage"] p,
+div[data-testid="stChatMessage"] li,
+div[data-testid="stChatMessage"] span,
+div[data-testid="stChatMessage"] strong,
+div[data-testid="stChatMessage"] em {
+    color: #172033 !important;
 }
 
 .mode-pill {
