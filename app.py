@@ -202,53 +202,11 @@ html, body, [class*="css"] {
     );
 }
 
-st.markdown("""
-<style>
-
-...baqi CSS...
-
-/* ===== SIDEBAR ONLY ===== */
-
 [data-testid="stSidebar"] {
-    background: #eaf4ff !important;
+    background: linear-gradient(180deg, #111936 0%, #1c2860 100%);
 }
 
-/* Sidebar normal text = BLACK */
-[data-testid="stSidebar"] p,
-[data-testid="stSidebar"] label,
-[data-testid="stSidebar"] h1,
-[data-testid="stSidebar"] h2,
-[data-testid="stSidebar"] h3,
-[data-testid="stSidebar"] h4 {
-    color: #000000 !important;
-}
-
-/* Sidebar buttons = BLACK BOX + WHITE TEXT */
-[data-testid="stSidebar"] button {
-    background: #000000 !important;
-    color: #ffffff !important;
-    border: 1px solid #000000 !important;
-}
-
-[data-testid="stSidebar"] button * {
-    color: #ffffff !important;
-}
-
-/* Language / Mode boxes = BLACK + WHITE */
-[data-testid="stSidebar"] [data-baseweb="select"] {
-    background: #000000 !important;
-    color: #ffffff !important;
-}
-
-[data-testid="stSidebar"] [data-baseweb="select"] * {
-    color: #ffffff !important;
-}
-
-...baqi CSS...
-
-</style>
-""", unsafe_allow_html=True)
-
+[data-testid="stSidebar"] * { color: #f4f7ff !important; }
 /* Sidebar buttons / boxes - white text */
 [data-testid="stSidebar"] button {
     color: #ffffff !important;
@@ -270,7 +228,6 @@ st.markdown("""
         #25256f,
         #087f8c
     );
-
     box-shadow:
     0 18px 45px rgba(28, 43, 100, .18);
 
