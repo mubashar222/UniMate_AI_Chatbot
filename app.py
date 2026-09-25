@@ -428,25 +428,9 @@ chat = st.session_state.chats[
 # HERO
 # =========================================================
 
-st.markdown(
-    """
-<div class="hero">
-
-    <span class="hero-badge">
-        🎓 MUBASHAR KHAN PROJECT
-    </span>
-
-    <h1>UniMate AI</h1>
-
-    <p>
-        Your intelligent university study companion —
-        powered by online AI.
-    </p>
-
-</div>
-""",
-    unsafe_allow_html=True
-)
+st.title("🎓 UniMate AI")
+st.subheader("MUBASHAR REHMAN PROJECT")
+st.write("Your intelligent study companion — powered by online AI.")
 
 
 # =========================================================
