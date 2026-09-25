@@ -295,6 +295,7 @@ div.stButton > button {
 }
 
 div[data-testid="stChatMessage"] {
+    background: #ffffff !important;
     border-radius: 16px;
     color: #172033 !important;
 }
