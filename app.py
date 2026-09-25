@@ -195,9 +195,12 @@ html, body, [class*="css"] {
 /* =========================
    SIDEBAR
    ========================= */
+/* =========================
+   SIDEBAR
+   ========================= */
 
 [data-testid="stSidebar"] {
-    background: linear-gradient(180deg, #111936 0%, #1c2860 100%);
+    background: #e8eef7 !important;
 }
 
 /* Sidebar normal words = BLACK */
@@ -210,7 +213,7 @@ html, body, [class*="css"] {
     color: #000000 !important;
 }
 
-/* New Chat & Clear Current Chat
+/* New Chat + Clear Current Chat
    BLACK BOX + WHITE WORDS */
 [data-testid="stSidebar"] button {
     background: #000000 !important;
@@ -218,6 +221,8 @@ html, body, [class*="css"] {
     border: 1px solid #000000 !important;
 }
 
+[data-testid="stSidebar"] button p,
+[data-testid="stSidebar"] button span,
 [data-testid="stSidebar"] button * {
     color: #ffffff !important;
 }
